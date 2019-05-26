@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+<style>
+body{
+padding:50px;
+}
+th{
+color: yellow;}
+h2 {
+ text-align: center;
+ }
+ 
+ #icon{
+ width: 30px;
+ margin-top: 6px;
+}
+#site-footer {
+height: 50px;
+}
+#footer1{
+margin-left:2%;
+float:left;
+padding: 5px;
+}
+#footer2{
+margin-right:2%;
+float:right;
+}
+</style>
+
+</head>
+<body background = "Orange.jpg">
+<body>
+
+
+<div class="main">
+
+  <h2>Exercise 3</h2>
+  Filter : <input id='planetInput' onkeyup='cariIsiPlanet()' type='text' placeholder="cari nama planet">
+        </br>
+        </br>
+		
+<table class="table">
+  <thead>
+    <tr class="bg-success">
+	  <th scope="col">Name</th>
+      <th scope="col">Rotation Period</th>
+      <th scope="col">Orbital Period</th>
+      <th scope="col">Diameter</th>
+      <th scope="col">Climate</th>
+      <th scope="col">Gravity</th>
+      <th scope="col">Terrain</th>
+      <th scope="col">Surface Water</th>
+      <th scope="col">Population</th>
+    </tr>
+  </thead>
+  <tbody id="ImanPlanet">
+  </tbody>
+</table>
+
+<script type="text/javascript" src="exercise3.js"></script>
+</div>
+</body>
+</html>
